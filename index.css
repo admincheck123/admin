@@ -1,0 +1,153 @@
+BODY {
+    margin: 20px 0px 20px 0px;
+    background-color: #e7e1e5;
+    font-family: arial;
+    font-size: 12pt;
+    }
+    
+  .page{
+    display: block;
+    width: 1000px;
+    min-height: 800px;
+    overflow: auto;
+    margin: 0px auto 0px auto;
+    box-sizing: border-box;
+    width: min(100%, 950px);
+    }
+    
+  .pageHeader{
+    background-color: #FFC9FF;
+    float: left;
+    clear: none;
+    min-height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+    
+  .pageContent{
+    background-color: #FFFFFF;
+    float: left;
+    clear: none;
+    min-height: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+    
+  .pageFooter{
+    background-color: #CB87F5;
+    float: left;
+    clear: none;
+    min-height: 50px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+
+
+img {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.container_swap {
+
+    width: 400px;
+
+}
+
+.div_left {
+
+    width: 200px;
+
+    float: left;
+
+    text-align: center;
+
+}
+
+.div_right {
+
+    width: 200px;
+
+    float: left;
+
+    text-align: center;
+
+}
+
+h3{
+    font-size: clamp(40px,8vw,105px);
+}
+.boder-box{
+    border: 2px solid red;
+    border-radius: 4px;
+    /* width: auto;
+    padding-top: 10px; */
+}
+
+
+@-webkit-keyframes my {
+    0% {
+      color: #ffff00;
+    }
+
+    50% {
+      color: #fff;
+    }
+
+    100% {
+      color: #ffff00;
+    }
+  }
+
+  @-moz-keyframes my {
+    0% {
+      color: #ffff00;
+    }
+
+    50% {
+      color: #fff;
+    }
+
+    100% {
+      color: #ffff00;
+    }
+  }
+
+  @-o-keyframes my {
+    0% {
+      color: #ffff00;
+    }
+
+    50% {
+      color: #fff;
+    }
+
+    100% {
+      color: #ffff00;
+    }
+  }
+
+  @keyframes my {
+    0% {
+      color: #ffff00;
+    }
+
+    50% {
+      color: #fff;
+    }
+
+    100% {
+      color: #ffff00;
+    }
+  }
+
+  .nhapnhay {
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite;
+    -o-animation: my 700ms infinite;
+    animation: my 700ms infinite;
+  }
