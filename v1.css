@@ -1,0 +1,60 @@
+.content {
+    background-color: #0099cc;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 12px;
+    justify-content: space-between;
+    
+    margin: 15px 20px;
+    border-radius: 25px;
+    width: min(70%,100%);
+    
+    
+    float: left;
+    
+
+}
+.note{
+    width: min(70%,100%);
+}
+.footer {
+    background-color: #0099cc;
+    text-align: center;
+    font-size: 12px;
+    padding: 50px;
+    justify-content: space-between;
+    
+    width: min(100%,100%);
+}
+
+.div_left{
+
+    background-color: #0099cc;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 12px;
+    justify-content: space-between;
+    
+    margin: 15px 20px;
+    border-radius: 25px;
+    width: min(70%,100%);
+    
+    
+    float: left;
+    
+    text-align: left;
+}
+
+span.a {
+    display: inline-block;
+    /* mặc định với span, a, strong, b, i... */
+}
+.div_right{
+
+    width: 200px;
+    
+    float: left;
+    
+    text-align: center;
+    
+    }
